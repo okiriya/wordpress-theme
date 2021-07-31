@@ -1,0 +1,98 @@
+.top-section {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.content-box {
+  flex: 0 0 72%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-img-section {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.blog-img-section img {
+  width: 100%;
+  height: auto;
+}
+
+
+.box {
+  margin: 10px 0px;
+  flex: 0 1 30%;
+}
+
+.box p {
+  font-family: "Lato", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 5px;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+.box a {
+  text-decoration: none;
+  font-family: sans-serif;
+  border-bottom: 1px dotted #fff;
+  padding: 5px;
+  font-size: 0.9rem;
+  color: #5151ff;
+  text-transform: uppercase;
+}
+.box .thumb {
+  width: 97%;
+  margin: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box .thumb img {
+  width: 100%;
+}
+
+.box a {
+  font-weight: 600;
+  color: #5a5a5a;
+  font-family: "Noto Sans", sans-serif;
+  display: block;
+}
+
+@media screen and (max-width: 576px) {
+  .right-section {
+    display: none;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .blog-img-section img {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.blog-post p {
+  font-family: "opensans", sans-serif;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.left-section h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #333;
+  margin-bottom: 3px;
+  font-size: 25px;
+}
+
+.left-section p {
+  color: rgb(77, 77, 77);
+}
+
+.scroll {
+  position: fixed;
+  top: 20px;
+}
